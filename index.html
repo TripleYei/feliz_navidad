@@ -8,12 +8,13 @@
 </head>
 <body>
 	<h1>FELIZ NAVIDAD</h1>
+	<img src="navidad.jpg" id="image">
 </body>
 
 <style>
 	@import url('https://fonts.googleapis.com/css?family=Muli&display=rubik');
 	body{
-		background: rgb(239, 239, 105);
+		
 		font-family: 'rubik', arial;
 		
 	}
@@ -29,6 +30,14 @@
 		-ms-animation:jump 1s ease-in 0s infinite normal;
 		animation:jump 1s ease-in 0s infinite normal;
 
+	}
+	#image{
+		position: absolute;
+		top: 35%;
+		width: 75%;
+		height: 75%;
+		left: 5%;
+		z-index: -1;
 	}
 	h1:hover{
 
